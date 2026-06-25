@@ -54,8 +54,13 @@ const About = () => {
               <div className="detail-item">
                 <GraduationCap className="detail-icon" />
                 <div>
-                  <span className="detail-label">Degree</span>
-                  <span className="detail-value">Information Technology</span>
+                  <span className="detail-label">Education</span>
+                  <span className="detail-value">
+                    Bachelor of Engineering in Information Technology (B.Sc. IT){" "}
+                    <br />
+                    Master of Science in Information Technology (M.Sc. IT) –
+                    Pursuing
+                  </span>
                 </div>
               </div>
             </div>
