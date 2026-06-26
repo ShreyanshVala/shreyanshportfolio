@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Shreyansh Vala.2026 All rights reserved.</p>
+          <p>&copy; {currentYear} Shreyansh Vala. All rights reserved.</p>
           <p className="made-with">
             Made with <Heart size={16} className="heart-icon" /> in React
           </p>
