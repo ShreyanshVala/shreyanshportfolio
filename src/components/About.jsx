@@ -1,6 +1,6 @@
 import React from "react";
 import { User, MapPin, Briefcase, GraduationCap } from "lucide-react";
-import resumePDF from "../assets/Resume/Shreyansh.pdf";
+import resumePDF from "../assets/Resume/Shreyansh_resume.pdf";
 import "./About.css";
 
 const About = () => {
