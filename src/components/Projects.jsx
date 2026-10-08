@@ -11,6 +11,17 @@ import "./Projects.css";
 const Projects = () => {
   const projects = [
     {
+      title: "EventHub",
+      description:
+        "A full-stack event management platform where users can explore events, view event details, and book tickets. Built with React, Node.js, Express, and MongoDB.",
+      imageIcon: <ShoppingCart size={48} className="text-violet-400" />,
+      tags: ["React", "Node.js", "Express", "MongoDB"],
+      githubLink: "https://github.com/ShreyanshVala/EventHub",
+      liveLink: "https://tubular-tanuki-2b4606.netlify.app/",
+      color: "violet",
+    },
+
+    {
       title: "Todo Task Manager",
       description:
         "A clean and intuitive task management app to organize daily activities. Features include adding, editing, deleting, and filtering tasks.",
@@ -21,8 +32,9 @@ const Projects = () => {
         "https://6a3cfe920157b21efde57d68--imaginative-torte-00d03d.netlify.app/",
       color: "emerald",
     },
+
     {
-      title: "Image Gallary",
+      title: "Image Gallery",
       description:
         "A React-based image gallery that fetches and displays images from an external API with search, filtering, and responsive layout features.",
       imageIcon: <CloudSun size={48} className="text-cyan-400" />,
@@ -53,6 +65,7 @@ const Projects = () => {
 
               <div className="project-content">
                 <h3>{project.title}</h3>
+
                 <p>{project.description}</p>
 
                 <div className="project-tags">
@@ -69,15 +82,18 @@ const Projects = () => {
                     className="project-link"
                     aria-label="GitHub Repository"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <FaGithub size={20} />
                     <span>Code</span>
                   </a>
+
                   <a
                     href={project.liveLink}
                     className="project-link"
                     aria-label="Live Demo"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <ExternalLink size={20} />
                     <span>Live Demo</span>
